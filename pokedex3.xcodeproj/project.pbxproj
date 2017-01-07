@@ -12,7 +12,7 @@
 		46A7E74C1E219F3D00BCA2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A7E74A1E219F3D00BCA2E9 /* Main.storyboard */; };
 		46A7E74E1E219F3D00BCA2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A7E74D1E219F3D00BCA2E9 /* Assets.xcassets */; };
 		46A7E7511E219F3D00BCA2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A7E74F1E219F3D00BCA2E9 /* LaunchScreen.storyboard */; };
-		46A7E7591E21A7F100BCA2E9 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 46A7E7581E21A7F100BCA2E9 /* pokemon.csv */; };
+		46A7E75B1E21AA3D00BCA2E9 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 46A7E75A1E21AA3D00BCA2E9 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		46A7E74D1E219F3D00BCA2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46A7E7501E219F3D00BCA2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46A7E7521E219F3D00BCA2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46A7E7581E21A7F100BCA2E9 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "../../../../pokeapi-master/data/v1/pokemon.csv"; sourceTree = "<group>"; };
+		46A7E75A1E21AA3D00BCA2E9 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				46A7E7481E219F3D00BCA2E9 /* ViewController.swift */,
 				46A7E74A1E219F3D00BCA2E9 /* Main.storyboard */,
 				46A7E74D1E219F3D00BCA2E9 /* Assets.xcassets */,
-				46A7E7581E21A7F100BCA2E9 /* pokemon.csv */,
+				46A7E75A1E21AA3D00BCA2E9 /* pokemon.csv */,
 				46A7E74F1E219F3D00BCA2E9 /* LaunchScreen.storyboard */,
 				46A7E7521E219F3D00BCA2E9 /* Info.plist */,
 			);
@@ -129,7 +129,7 @@
 			files = (
 				46A7E7511E219F3D00BCA2E9 /* LaunchScreen.storyboard in Resources */,
 				46A7E74E1E219F3D00BCA2E9 /* Assets.xcassets in Resources */,
-				46A7E7591E21A7F100BCA2E9 /* pokemon.csv in Resources */,
+				46A7E75B1E21AA3D00BCA2E9 /* pokemon.csv in Resources */,
 				46A7E74C1E219F3D00BCA2E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +304,7 @@
 				46A7E7571E219F3D00BCA2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
